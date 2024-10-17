@@ -14,9 +14,10 @@ function ServiceCard({ iconUrl, title, description, action }: IProps) {
       <div>
         <img src={iconUrl} alt="service icon" />
       </div>
-      <p className="text-[2.25rem] font-[700]">{title}</p>
+      <p className="text-[1.75rem] font-[700]">{title}</p>
       <p className="text-normal">{description}</p>
-      <MainButton text="Learn More" action={action} classes="w-[10.125rem]" />
+      <MainButton text="Daha Fazla" action={action} classes="w-[10.125rem]" />
+      {/* <MainButton text="Learn More" action={action} classes="w-[10.125rem]" /> */}
     </div>
   );
 }

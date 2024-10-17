@@ -6,32 +6,32 @@ function TeamSection() {
   const teamData = [
     {
       id: 0,
-      imageUrl: "/images/vanessa.jpg",
-      name: "Vanessa Laird",
-      profession: "UI Designer",
+      imageUrl: "/images/ayhan.jpg",
+      name: <a href="Ayhan_Ugur">Ayhan Uğur</a>,
+      profession: "Elektronik Tasarım",
     },
     {
       id: 1,
-      imageUrl: "/images/mason.jpg",
-      name: "Mason Campbell",
-      profession: "UI Designer",
+      imageUrl: "/images/firat.jpg",
+      name: <a href="FS">Fırat Salmanoğlu</a>,
+      profession: "Yazılım Geliştirme",
     },
-    {
-      id: 2,
-      imageUrl: "/images/irea.jpg",
-      name: "Irea Evans",
-      profession: "Client Manager",
-    },
+    // {
+    //   id: 2,
+    //   imageUrl: "/images/irea.jpg",
+    //   name: "Irea Evans",
+    //   profession: "Client Manager",
+    // },
   ];
   return (
     <section className="mt-[9rem]">
-      <Header title="our team" subtitle="Meet The Team" />
+      <Header title="ekibimiz" subtitle="Bizi Tanıyın" />
       <div className="grid grid-cols-1 gap-16  md:grid-cols-2 lg:grid-cols-3 mt-8 md:mt-[3.31rem]">
         {teamData.map((team) => (
           <TeamCard
             key={team.id}
             imageUrl={team.imageUrl}
-            name={team.name}
+            name= {team.name}
             profession={team.profession}
           />
         ))}

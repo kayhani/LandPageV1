@@ -6,36 +6,36 @@ function TestimonialSection() {
   const appReviewData = [
     {
       id: 0,
-      imageUrl: "/images/rayhan.jpg",
-      reviewerName: "Rayhan Curran",
+      imageUrl: "/images/portable_icon.png",
+      reviewerName: "Acil durumlar, afet müdahale ve arama-kurtarma operasyonları için geliştirilmiş, ayrıca gezici yaşam tarzına uygun taşınabilir enerji sistemleri.",
       review:
-        "Get a fully retina ready site when you build with Startup Framework. Websites look sharper and more gorgeous on devices with retina display support",
+        "Taşınabilir Enerji Çözümleri",
     },
 
     {
       id: 1,
-      imageUrl: "/images/kayley.jpg",
-      reviewerName: "Kayley Frame",
+      imageUrl: "/images/1software_icon.png",
+      reviewerName: "Elektronik sistemler, mobil uygulama geliştirme ve kullanıcı etkileşimli uygulamaların tasarımı gibi alanlarda kapsamlı bilgiye sahip uzmanlarımızla sizin için özel olarak tasarlanan yazılım projeleri.",
       review:
-        "As a business targeting high net worth individuals, we were looking for a slick, cool and mini-malistic design for our website",
+        "Gelişmiş Yazılım Çözümleri",
     },
     {
       id: 2,
-      imageUrl: "/images/gene.jpg",
-      reviewerName: "Gene Whitfield",
-      review: "The most important part of the Startup Framework is the samples",
+      imageUrl: "/images/card_icon.png",
+      reviewerName: "Özelleştirilmiş elektronik kart ve devre tasarımı hizmetlerimizle, endüstriyel ihtiyaçlarınıza uygun, yüksek performanslı ve güvenilir çözümler sunuyoruz.",
+      review: "Elektronik Kart ve Devre Tasarım",
     },
     {
       id: 3,
-      imageUrl: "/images/alan.jpg",
-      reviewerName: "Allan Kim",
+      imageUrl: "/images/perf_icon.png",
+      reviewerName: "Fotovoltaik sistemlerinizin verimliliğini artırmak için kapsamlı performans değerlendirme ve detaylı raporlama hizmetleri sunuyoruz. Uzman ekibimiz tarafından gerçekleştirilen analizlerle, enerji üretiminizi maksimize etmek ve sistem optimizasyonu için veri odaklı içgörüler sağlıyoruz.",
       review:
-        "I've built my website with Startup just in one day, and it was ready-to-go. ",
+        "Fotovoltaik Güç Sistemlerinde Performans Analizi ve Stratejik Raporlama",
     },
   ];
   return (
     <section className="mt-[9rem]">
-      <Header title="testimonials" subtitle="What Clients say about us" />
+      <Header title="projeler" subtitle="Yenilikçi Projelerle Geleceğe Enerji Veriyoruz" />
       <div className="grid grid-cols-1 gap-16  md:grid-cols-2 mt-8 md:mt-[6.75rem]">
         {appReviewData.map((review) => (
           <TestimonialCard

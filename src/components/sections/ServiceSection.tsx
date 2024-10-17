@@ -6,29 +6,38 @@ function ServiceSection() {
   const serviceData = [
     {
       id: 0,
-      iconUrl: "/images/activity_icon.png",
-      title: "Graphic Design",
+      iconUrl: "/images/pps_icon.png",
+      title: "Mobil Güç Sistemleri",
+      // title: "Portable Mobile Power Systems",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "SolarMP, hızlı ve pratik kurulum sunan taşınabilir güç sistemleri ile her yerde enerji ihtiyacınızı karşılar. Mobil çözümler sunar.",
+        // "SolarMP meets your energy needs anywhere with portable power systems that offer fast and practical installation.",
     },
     {
       id: 1,
-      iconUrl: "/images/video_icon.png",
-      title: "Video Editing",
+      iconUrl: "/images/software_icon.png",
+      title: "Enerji Yazılımları ",
+      // title: "Renewable Energy Software Development",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Yenilenebilir enerji kaynaklarının etkin yönetimi ve optimizasyonu için gelişmiş yazılım çözümleri sunuyoruz.",
+        // "We offer advanced software solutions for the effective management and optimisation of renewable energy sources.",
     },
     {
       id: 2,
-      iconUrl: "/images/chart_icon.png",
-      title: "Digital Marketing",
+      iconUrl: "/images/consultancy_icon.png",
+      title: "Yeşil Enerji Danışmanlığı",
+      // title: "Yeşil Enerji Danışmanlığı",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui mi, bibendum eu erat id, ultricies semper metus. Nunc dapibus laoreet dolor nec imperdiet.",
+        "Enerji verimliliğinizi artırmak ve çevresel etkilerinizi azaltmak için yenilenebilir enerji alanında uzman danışmanlık hizmetleri sağlıyoruz.",
+        // "We provide expert consultancy services in the field of renewable energy to increase your energy efficiency and reduce your environmental impact.",
     },
+
+    
   ];
   return (
     <section>
-      <Header title="service" subtitle="Our Vison & Our Goal" />
+      {/* <Header title="service" subtitle="Our Vison & Our Goal" /> */}
+      <Header title="hizmetler" subtitle="Çözümlerimiz" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-[3.56rem] justify-around mt-8 md:mt-[6.75rem]">
         {serviceData.map((service) => (
           <ServiceCard

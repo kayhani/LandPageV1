@@ -6,14 +6,13 @@ function VideoPlayerSection() {
     <section className="flex flex-col md:flex-row justify-between items-center gap-8 mt-[11.31rem]">
       <div>
         <p className="text-lightBlue font-bold text-2xl ">
-          Many Blocks and Components
+          SolarMP
         </p>
         <p className="text-customLightGray text-[1.2rem] mt-4 mb-8">
-          Startup Framework contains components and complex blocks which can
-          easily be integrated into almost any design.{" "}
+        SolarMP, farklı güç seçenekleri ve kompakt tasarımı her türlü ortamda güvenilir ve kesintisiz enerji sağlayan gelişmiş bir mobil güç çözümüdür.{" "}
         </p>
         <MainButton
-          text="Explore"
+          text="Keşfedin"
           classes="!h-[3.01544rem] hover:bg-white w-[8.2925rem] text-lightBlue font-bold text-[1rem] rounded-[6.25rem] border-[4px] border-[#EBEAED] bg-white shadow-none"
         />
       </div>

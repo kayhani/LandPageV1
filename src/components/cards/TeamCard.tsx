@@ -24,7 +24,9 @@ function TeamCard({ imageUrl, name, profession }: IProps) {
 
       <div className="flex justify-around items-center h-[3.6875rem] border-[4px] border-[#EBEAED] border-t-0  rounded-b-[1rem]">
         <div>
+          {/* <a href="https://www.anilcagliyan.com/" > */}
           <img src="/images/x_icon.png" alt="social icon" />
+          {/* </a> */}
         </div>
         <Separator orientation="vertical" color="#EBEAED" className="w-[3px]" />
         <div>

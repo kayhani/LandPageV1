@@ -12,22 +12,23 @@ export const metadata: Metadata = {
 const ageo = localFont({
   src: [
     {
-      path: '../../public/font/AgeoPersonalUse.otf',
+      path: '../../public/font/Akrobat.otf',
+      //path: '../../public/font/BebasNeue-Regular.ttf',
       weight: '400',
       style: 'normal',
     },
     {
-      path: '../../public/font/AgeoPersonalUse-Bold.otf',
+      path: '../../public/font/Akrobat-Bold.otf',
       weight: '700',
       style: 'bold',
     },
     {
-      path: '../../public/font/AgeoPersonalUse-ExtraBold.otf',
+      path: '../../public/font/Akrobat-ExtraBold.otf',
       weight: '850',
       style: 'extra-bold',
     },
     {
-      path: '../../public/font/AgeoPersonalUse-Medium.otf',
+      path: '../../public/font/Akrobat-Medium.otf',
       weight: '500',
       style: 'medium',
     },

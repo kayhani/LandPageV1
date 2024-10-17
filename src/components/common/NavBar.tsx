@@ -16,37 +16,37 @@ function NavBar() {
       <div className=" hidden lg:block animate-in fade-in zoom-in bg-white p-4">
         <div className="flex justify-between md:mx-[9rem] items-center">
           <div>
-            <img src="/images/epixelap_logo.png" alt="logo" />
+          <a href="Home"> <img src="/images/solarMP_logo.png" alt="logo" /></a>
           </div>
           <div className="flex gap-[20px] xl:gap-[50px] text-[16px] items-center select-none">
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Home
+              <a href="Home">Anasayfa</a>
             </p>
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              About Us
+              <a href="About">Hakkımızda</a>
             </p>
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Our App
+              <a href="Solutions">Çözümlerimiz</a>
             </p>
             <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Contacts
+              İletişim
             </p>
           </div>
           <div className="flex items-center gap-[40px] select-none">
-            <p
+            {/* <p
               className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
             >
-              Login
-            </p>
-            <MainButton text="Sign up" classes="shadow-none" />
+              Giris
+            </p> */}
+            {/* <MainButton text="Kaydol" classes="shadow-none" /> */}
           </div>
         </div>
       </div>
@@ -86,31 +86,31 @@ function NavBar() {
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                Home
+                Anasayfa
               </p>
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                About Us
+                Hakkımızda
               </p>
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                Our App
+                Çözümlerimiz
               </p>
               <p
                 className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
               >
-                Contacts
+                Iletisim
               </p>
 
               <div className="flex flex-col gap-[40px] select-none">
                 <p
                   className={`hover:text-primary cursor-pointer flex items-center gap-2  font-[500] text-gray`}
                 >
-                  Login
+                  Giris
                 </p>
-                <MainButton text="Sign up" classes="shadow-none" />
+                <MainButton text="Kaydol" classes="shadow-none" />
               </div>
             </div>
           </div>

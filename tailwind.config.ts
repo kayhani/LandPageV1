@@ -33,7 +33,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       colors: {
-        primary: "#F60",
+        primary: "#93C47D",
         darkBlue: "#0B1B35",
         customGray: "#8A898E",
         lightBlue: "#1E0E62",
