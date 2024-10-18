@@ -19,12 +19,12 @@ function FSSection() {
         <div className="flex gap-[1.75rem] items-center mt-[3rem]">
           {/* <MainButton text="Get Started" classes="shadow-none w-[10.125rem]" /> */}
           <div className="flex gap-[1.56rem] items-center">
-            <img src="/images/yellow_play_icon.png" alt="play icon" />
-            <p className="font-bold text-normal"><a href="https://eusolar.ege.edu.tr/">Daha Fazla Bilgi </a></p>
-            <img src="/images/instagram_icon.png" alt="play icon" />
-            <img src="/images/linkedn_icon.png" alt="play icon" />
-            <img src="/images/orcid_icon.png" alt="play icon" />
-            <img src="/images/google_scholar_icon.png" alt="play icon" />
+            <a href="https://unisis.ege.edu.tr/researcher=firat.salmanoglu"><img src="/images/yellow_play_icon.png" alt="play icon" /></a>
+            <p className="font-bold text-normal"><a href="https://unisis.ege.edu.tr/researcher=firat.salmanoglu">Daha Fazla Bilgi </a></p>
+            <a href="https://www.instagram.com/kedieuphrates/"><img src="/images/instagram_icon.png" alt="play icon" /></a>
+            <a href="https://www.linkedin.com/in/f%C4%B1rat-salmanoglu-6729887b/?originalSubdomain=tr"><img src="/images/linkedn_icon.png" alt="play icon" /></a>
+            <a href="https://orcid.org/0000-0003-2975-9937"><img src="/images/orcid_icon.png" alt="play icon" /></a>
+            <a href="https://scholar.google.com.tr/citations?user=AJS72mAAAAAJ&hl=tr"><img src="/images/google_scholar_icon.png" alt="play icon" /></a>
             
            
 

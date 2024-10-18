@@ -17,7 +17,7 @@ function HeroSection() {
           {/* <MainButton text="Get Started" classes="shadow-none w-[10.125rem]" /> */}
           <div className="flex gap-[1.56rem] items-center">
             <img src="/images/yellow_play_icon.png" alt="play icon" />
-            <p className="font-bold text-normal"><a href="https://eusolar.ege.edu.tr/">Daha Fazla Bilgi </a></p>
+            <p className="font-bold text-normal"><a href="About">Daha Fazla Bilgi </a></p>
            
 
           </div>

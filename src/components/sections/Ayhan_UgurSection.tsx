@@ -25,7 +25,7 @@ function Ayhan_UgurSection() {
       </div>
       <div>
         <img
-          src="/images/mps.jpg"
+          src="/images/ayhan1.jpg"
           alt="guy with phone surrounded by action icons"
         />
       </div>
