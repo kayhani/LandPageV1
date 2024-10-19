@@ -12,6 +12,8 @@ function ServiceSection() {
       description:
         "SolarMP, hızlı ve pratik kurulum sunan taşınabilir güç sistemleri ile her yerde enerji ihtiyacınızı karşılar. Mobil çözümler sunar.",
         // "SolarMP meets your energy needs anywhere with portable power systems that offer fast and practical installation.",
+      url:"/About",
+      
     },
     {
       id: 1,
@@ -21,6 +23,7 @@ function ServiceSection() {
       description:
         "Yenilenebilir enerji kaynaklarının etkin yönetimi ve optimizasyonu için gelişmiş yazılım çözümleri sunuyoruz.",
         // "We offer advanced software solutions for the effective management and optimisation of renewable energy sources.",
+      url: "/FS",
     },
     {
       id: 2,
@@ -30,6 +33,7 @@ function ServiceSection() {
       description:
         "Enerji verimliliğinizi artırmak ve çevresel etkilerinizi azaltmak için yenilenebilir enerji alanında uzman danışmanlık hizmetleri sağlıyoruz.",
         // "We provide expert consultancy services in the field of renewable energy to increase your energy efficiency and reduce your environmental impact.",
+      url: "/Ayhan_Ugur",
     },
 
     
@@ -45,6 +49,7 @@ function ServiceSection() {
             title={service.title}
             description={service.description}
             iconUrl={service.iconUrl}
+            url = {service.url}
           />
         ))}
       </div>
